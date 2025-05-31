@@ -1,8 +1,8 @@
 #task reminders
 
-Task = input("What is the task?: ")
-Priority = input("What is the task priority, (high, medium, low): ")
-Time_bound = input("Is the task time-bound, (yes or no): ")
+Task = input("Enter your task: ")
+Priority = input("Priority, (high/medium/low): ")
+Time_bound = input("Is it time-bound, (yes/no): ")
 
 match Priority:
     case "high":
