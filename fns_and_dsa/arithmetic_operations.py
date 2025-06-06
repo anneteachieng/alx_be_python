@@ -1,18 +1,11 @@
 #function that performs basic arithmetic operations
 
-def perform_operation(num1: float, num2: float, operation: str):
-    """
+def perform_operation(num1, num2, operation):
 
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     operation = str(input("Enter the operation: (add, subtract, multiply, divide.): "))
 
-    #results
-    returns
-    float: The result of the operation
-    str: A specific message if an error (division by zero) occurs.
-
-    """
 
     match operation:
         case "add":
